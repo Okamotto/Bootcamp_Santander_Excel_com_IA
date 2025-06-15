@@ -1,74 +1,83 @@
-# Bootcamp Santander - Excel com IA
+# Bootcamp Santander - Excel com Inteligência Artificial
 
-Este repositório reúne os desafios e projetos desenvolvidos durante o Bootcamp Santander - Excel com IA, com foco em automação, organização de dados e simulação de investimentos utilizando o Excel. Cada projeto explora diferentes funções e possibilidades da ferramenta, promovendo o aprendizado prático e a documentação técnica.
-
----
-
-## Projetos e Desafios
-
-### 1. Criando Um Organizador de Declaração de Imposto de Renda
-
-Ferramenta em Excel para organizar e reunir informações essenciais para a declaração de imposto de renda. Permite controlar entradas de forma eficiente, com menus de navegação, validações automáticas e funcionalidades extras.
-
-**Principais recursos:**
-- Planilha principal (`DeclaraFácil.xlsx`)
-- Base de dados de apoio (`bancos_apoio.xlsx`)
-- Scripts VBA para automações (`script_de_alinhamentos.txt`)
-- Interface amigável e prática
+Este repositório reúne todos os projetos, desafios e materiais desenvolvidos durante o **Bootcamp Santander - Excel com Inteligência Artificial**. O objetivo principal foi aplicar conceitos de organização, automação, análise de dados e modelagem de banco de dados, utilizando Excel, VBA, Python e SQL, além de documentar boas práticas e aprendizados.
 
 ---
 
-### 2. Simulador de Investimentos em Fundos Imobiliários
+## 1. Organizador de Declaração de Imposto de Renda
 
-Planilha para simular investimentos em fundos imobiliários, calculando valor investido, patrimônio acumulado e dividendos mensais. Ideal para investidores iniciantes e para análise de diferentes cenários.
-
-**Funcionalidades:**
-- Automatização de cálculos financeiros
-- Simulação de rendimento e dividendos
-- Possibilidade de personalização dos parâmetros
-- Sugestão de expansões: integração de dados, dashboards e novos cenários
-
----
-
-### 3. Desafio: Contando Valores no Excel
-
-Exercício para identificar funções de contagem do Excel a partir de descrições textuais. Explora funções como `CONT.NÚM`, `CONT.VALORES`, `CONT.SE` e `CONT.SES`.
-
-**Exemplos de funções:**
-- `=CONT.NÚM(A1:A10)` — Conta células com números
-- `=CONT.VALORES(A1:A10)` — Conta células não vazias
-- `=CONT.SE(A1:A10, ">10")` — Conta células que atendem a um critério
-- `=CONT.SES(A1:A10, ">10", B1:B10, "<50")` — Conta células com múltiplos critérios
+- **Descrição:** Planilha em Excel criada para facilitar a organização dos dados necessários para a declaração anual do Imposto de Renda.
+- **Funcionalidades:**
+  - Menus de navegação para facilitar o acesso às abas principais.
+  - Validações automáticas de preenchimento e alertas visuais.
+  - Scripts VBA para automação de tarefas, como alinhamento de células e atualização de status.
+  - Estrutura modular: planilha principal, base de apoio e scripts separados.
+- **Destaques:** Foco em usabilidade, automação e redução de erros no preenchimento.
 
 ---
 
-### 4. Desafio: Funções de Texto no Excel
+## 2. Simulador de Investimentos em Fundos Imobiliários
 
-Desafio para identificar funções de manipulação de texto no Excel a partir de descrições. Inclui funções para conversão de maiúsculas/minúsculas, substituição de texto e extração de caracteres.
-
-**Exemplos de funções:**
-- `=MAIÚSCULA(A1)` — Converte texto para maiúsculas
-- `=MINÚSCULA(A1)` — Converte texto para minúsculas
-- `=SUBSTITUIR(A1, "velho", "novo")` — Substitui parte do texto
-- `=ESQUERDA(A1, 5)` — Extrai caracteres do início do texto
-
----
-
-## Como Usar
-
-1. **Abra as planilhas no Excel** disponíveis em cada pasta de projeto.
-2. **Siga as instruções** de preenchimento e uso descritas nos respectivos READMEs.
-3. **Explore os exemplos** e personalize os parâmetros para praticar e expandir seu conhecimento.
+- **Descrição:** Planilha interativa para simular investimentos em FIIs, permitindo ao usuário visualizar projeções de patrimônio e dividendos.
+- **Funcionalidades:**
+  - Cálculo automático de valor investido, patrimônio acumulado e dividendos mensais.
+  - Parâmetros personalizáveis: aporte mensal, taxa de retorno, reinvestimento de dividendos, etc.
+  - Sugestões de expansão: dashboards dinâmicos, integração com dados reais via Power Query ou APIs.
+- **Destaques:** Ferramenta prática para planejamento financeiro e educação sobre investimentos.
 
 ---
 
-## Recursos Úteis
+## 3. Dashboard de Vendas no Excel
 
-- [GitHub Quick Start](https://github.com/diomeira/github-quick-start)
-- [GitBook: Formação GitHub Certification](https://diomeira.gitbook.io/github-certification/)
-- [Documentação do GitHub](https://docs.github.com/pt)
-- [Guia de Markdown do GitHub](https://docs.github.com/pt/get-started/writing-on-github)
+- **Descrição:** Criação de um dashboard visual para análise de vendas, utilizando recursos avançados do Excel.
+- **Funcionalidades:**
+  - Gráficos dinâmicos, segmentação de dados e indicadores de desempenho.
+  - Organização dos dados brutos para facilitar análises rápidas.
+  - Layout intuitivo, com foco em visualização clara e tomada de decisão.
+- **Destaques:** Demonstração de como transformar dados em insights visuais.
 
 ---
 
-Aproveite para praticar, experimentar e adaptar as soluções conforme suas necessidades!
+## 4. Desafios de Funções do Excel
+
+- **Descrição:** Série de desafios para praticar e identificar funções do Excel em diferentes contextos.
+- **Funcionalidades:**
+  - Scripts Python que recebem descrições e retornam a função/fórmula correspondente do Excel.
+  - Abrange funções de contagem, texto, data/hora e matemáticas.
+  - Exemplos práticos e explicações para cada função.
+- **Destaques:** Integração entre Python e Excel para aprendizado ativo e automatizado.
+
+---
+
+## 5. Projeto E-Cards: Modelagem de Banco de Dados para Pokémon TCG
+
+- **Descrição:** Modelagem relacional de banco de dados para organizar cartas do Pokémon Trading Card Game.
+- **Funcionalidades:**
+  - Scripts SQL para criação de tabelas (cartas, coleções, tipos, estágios) e inserção de dados de exemplo.
+  - Criação de views para facilitar consultas e relatórios.
+  - Automação com PowerShell para consolidar scripts SQL em um único arquivo de migração.
+  - Documentação detalhada do modelo de dados e relacionamentos.
+- **Destaques:** Aplicação de boas práticas de modelagem, integridade referencial e automação de processos de banco de dados.
+
+---
+
+## 6. Aprendizados e Práticas
+
+- **Excel:** Aplicação de funções avançadas, automação com VBA, criação de dashboards e organização de dados.
+- **Python:** Scripts para automação de tarefas e integração com Excel.
+- **SQL:** Modelagem de dados, criação de scripts de migração e manipulação de dados relacionais.
+- **Automação:** Uso de PowerShell para facilitar processos repetitivos.
+- **Documentação:** Estruturação clara dos projetos, facilitando o entendimento e a reutilização dos materiais.
+- **Versionamento:** Utilização do GitHub para controle de versões e colaboração.
+
+---
+
+## Estrutura do Repositório
+
+- Cada projeto/desafio está organizado em pastas separadas, com documentação própria.
+- Os arquivos principais trazem instruções de uso, exemplos e dicas para personalização.
+- O repositório serve como portfólio e material de consulta para futuras aplicações em análise de dados, automação e modelagem.
+
+---
+
+Este material foi desenvolvido com foco em aprendizado prático, incentivando a experimentação, personalização e expansão das soluções apresentadas.
